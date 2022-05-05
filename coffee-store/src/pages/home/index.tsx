@@ -6,7 +6,7 @@ function Home() {
   return (
     <div style={{height:1500}}>
       <Header/>
-      <div style={{paddingLeft:100,paddingRight:100,paddingTop:60}}>
+      <div style={{paddingTop:60}}>
         <Swaper/>
       </div>
     </div>

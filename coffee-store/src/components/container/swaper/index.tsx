@@ -22,10 +22,10 @@ function Swaper() {
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
       >
-        <SwiperSlide><Image src="https://scr.vn/wp-content/uploads/2020/08/%E1%BA%A2NH-G%C3%81I-%C4%90%E1%BA%B8P.jpg" style={{}} preview={false}/></SwiperSlide>
-        <SwiperSlide><Image src="https://scr.vn/wp-content/uploads/2020/08/%E1%BA%A2NH-G%C3%81I-%C4%90%E1%BA%B8P.jpg" style={{}} preview={false}/></SwiperSlide>
-        <SwiperSlide><Image src="https://scr.vn/wp-content/uploads/2020/08/%E1%BA%A2NH-G%C3%81I-%C4%90%E1%BA%B8P.jpg" style={{}} preview={false}/></SwiperSlide>
-        <SwiperSlide><Image src="https://scr.vn/wp-content/uploads/2020/08/%E1%BA%A2NH-G%C3%81I-%C4%90%E1%BA%B8P.jpg" style={{}} preview={false}/></SwiperSlide>
+        <SwiperSlide><Image src="https://file.hstatic.net/1000075078/file/web_desktop_44bc61f0c6a644aba56f4613fdd48f70.jpg" style={{}} preview={false}/></SwiperSlide>
+        <SwiperSlide><Image src="https://file.hstatic.net/1000075078/file/desktop_da8b79834e1245efabac584665a2a253.jpg" style={{}} preview={false}/></SwiperSlide>
+        <SwiperSlide><Image src="https://file.hstatic.net/1000075078/file/web_moi_desktop_fc5c66b5483249e783ccef0dd6a38ac8.jpg" style={{}} preview={false}/></SwiperSlide>
+        <SwiperSlide><Image src="https://file.hstatic.net/1000075078/file/desktop_a33136ed348e4fb8b0c7fba0c4813795.jpg" style={{}} preview={false}/></SwiperSlide>
       </Swiper>
     </div>
   )
