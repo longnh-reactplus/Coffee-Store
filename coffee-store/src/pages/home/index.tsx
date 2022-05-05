@@ -1,10 +1,14 @@
 import React from 'react'
+import Swaper from '../../components/container/swaper'
 import Header from "../../components/header"
 
 function Home() {
   return (
-    <div style={{height: 1900}}>
+    <div style={{height:1500}}>
       <Header/>
+      <div style={{paddingLeft:100,paddingRight:100,paddingTop:60}}>
+        <Swaper/>
+      </div>
     </div>
   )
 }
