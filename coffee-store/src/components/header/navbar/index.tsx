@@ -5,26 +5,32 @@ import { Link } from "react-router-dom";
 const navList = [
   {
     title: "Cà phê",
+    path: "/coffee",
     id: 1,
   },
   {
     title: "Trà",
+    path: "/tea",
     id: 2,
   },
   {
     title: "Menu",
+    path: "/menu",
     id: 3,
   },
   {
     title: "Chuyện nhà",
+    path: "/housestory",
     id: 4,
   },
   {
     title: "Cửa hàng",
+    path: "/store",
     id: 5,
   },
   {
     title: "Tuyển dụng",
+    path: "/recruit",
     id: 6,
   },
 ];
@@ -40,8 +46,7 @@ function Navbar() {
               type="text"
               style={{ marginLeft: 0,marginTop:16,fontSize:14,fontWeight:'500'}}
             >
-              {data.title}
-              <Link to={'/order'}></Link>
+              <Link to={data.path}>{data.title}</Link>
             </Button>
           );
         })}

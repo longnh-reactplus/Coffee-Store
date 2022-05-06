@@ -8,6 +8,7 @@ import Coffee from './pages/coffee';
 import Tea from './pages/tea';
 import HouseStory from './pages/housestory';
 import Recruit from './pages/recruit';
+import Store from './pages/store';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/tea' element={<Tea/>}/>
         <Route path='/housestory' element={<HouseStory/>}/>
         <Route path='/recruit' element={<Recruit/>}/>
+        <Route path='/store' element={<Store/>}/>
       </Routes>
     </div>
   );
