@@ -1,5 +1,6 @@
 import { Button } from "antd";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const navList = [
   {
@@ -40,6 +41,7 @@ function Navbar() {
               style={{ marginLeft: 0,marginTop:16,fontSize:14,fontWeight:'500'}}
             >
               {data.title}
+              <Link to={'/order'}></Link>
             </Button>
           );
         })}
